@@ -1,0 +1,216 @@
+body{
+    position: relative;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+}
+.main .main_wrap{
+/*    overflow: hidden*/
+    margin: 40px;
+    width: 70%;
+    padding: 40px;
+    border:1px solid #efefef;
+    border-radius: 10px;
+}
+.main h4{
+/*    width: 60%;*/
+    margin: auto;
+    font-size: 16px;
+    border-left: 4px solid firebrick;
+    padding-bottom: 10px;
+    color: #666;
+    text-align: left;
+    font-weight: 200;
+    padding-left: 20px;
+    height: 21px;
+    margin-bottom: 40px;
+}
+.main .comment_textarea{
+    margin: auto;
+    border: 10px solid rgba(0,0,0,.3);
+    height: 400px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+#submitBtn{
+    float: right;
+    margin-right: 50px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: #BCEED7;
+    background-color: #06BF6B;
+}
+input[type=button]{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #BCEED7;
+    background-color: #06BF6B;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.main .comment_textarea textarea{
+    width: 86%;
+    margin: 50px 40px 30px ;
+    height: 90px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    color: #666;
+    padding: 10px 20px;
+}
+.main .comment_textarea p{
+    padding-left: 60px;
+}
+
+ .comment_textarea p input:first-of-type{
+    width: 180px;
+    height: 25px;
+    padding-left: 16px;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+ .comment_textarea p button:hover{
+    color: white;
+    background-color: rgb(20,191,107)
+}
+#hint{
+    display: inline-block;
+    vertical-align: middle;
+    color: #ECCC1F;
+    text-align: center;
+    visibility: hidden;
+    background: #fff6db;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #f5d8a7;
+    margin-left: 420px;
+    height: 10px;
+    line-height: 10px;
+}
+#previewImg{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 138px;
+    outline: 1px solid #efefef;
+}
+#previewImg img{
+    width: 100%;
+    height: 100%;
+}
+.main .comment{
+    margin: auto;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px dashed #efefef;
+    border-top: 1px dashed #efefef;
+    padding: 20px 0;
+}
+.comment .portrait{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+}
+ .comment .portrait img{
+    width: 100%;
+    height: 100%;
+}
+ .comment .comment_right{
+    float: left;
+    width: 80%
+}
+.comment .comment_right p{
+    margin: 0 0 10px 20px;
+}
+ .comment .comment_right p:first-of-type{
+    color: #999;
+}
+.comment .comment_right p:nth-of-type(2){
+    color: #333;
+}
+.comment .comment_right>a{
+    display: inline-block;
+    margin-left: 20px;
+    color: #3377aa;
+    float: right;
+}
+.main  .page{
+    text-align: center;
+    font-size: 0;
+    margin-top: 40px;
+}
+
+.page a, main .left .page span{
+    padding: 0 4px;
+    margin: 2px;
+    cursor: pointer;
+    color: #37a;
+}
+.left .page a:hover{
+    background-color: #999;
+    color: white;
+}
+
+.page button{
+    width: 18px;
+    height: 18px;
+    line-height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background: url("../img/slide_swithc_2.png");
+    vertical-align: top;
+    margin-top: 10px;
+}
+.page button:first-of-type{
+    margin-left: 20px;
+}
+.page button:nth-of-type(2){
+    background-position: 18px 0;
+}
+.ewm_wrap{
+    
+}
+.erweima{
+    position:fixed;
+    top: 400px;
+    right: 0;
+    width: 10%;
+}
+ .erweima p:first-of-type{
+    position: absolute;
+    left: 48px;
+    top: 5px;
+    margin-left: 20px;
+    color: #072;
+    margin-bottom: 10px;
+}
+
+h4 a{
+    color: #37a;
+    font-size: 16px;
+    float: right;
+}
+.erweima img{
+    border: 1px solid #efefef;
+    width: 100%;
+}

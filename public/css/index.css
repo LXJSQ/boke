@@ -1,0 +1,687 @@
+
+main{
+    overflow: hidden;
+}
+main>img{
+    width: 100%;
+    height: 350px;
+}
+main .main_wrap{
+    width: 1000px;
+   margin: auto;
+}
+main .ad_wrap{
+    position: relative;
+}
+main  .ad_wrap h2{
+    position: absolute;
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+    width: 100%;
+    top: -220px;
+    font-weight: lighter;
+    letter-spacing: 15px;
+}
+main .ad_wrap h4{
+    position: absolute;
+    display: none;
+    width: 100%;
+    text-align: center;
+    color: #999;
+    top: -280px;
+    font-size: 40px;
+    font-weight: lighter;
+    opacity: .7;
+    text-space: 20px;
+}
+main .ad_wrap .ad_wrap_img{
+    position: absolute;
+    top: -280px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+/*    border: 1px solid rgba(255,255,255,.2);*/
+    border-radius: 50%;
+    z-index: 2;
+    opacity: .8;
+    overflow: hidden;
+    transition: background-color linear 1s;
+
+}
+main .ad_wrap .ad_wrap_img:hover p:first-of-type{
+    color: white;
+    background-color: rgba(5,211,255,0.7);
+    top:60px;
+}
+main .ad_wrap .ad_wrap_img img{
+    width: 100%;
+    height: 100%;
+}
+main .ad_wrap p:first-of-type{
+    position: absolute;
+    background-color: rgba(171,178,186,0);
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    height: 40px;
+    top: 100px;
+    z-index: 4;
+    color: transparent;
+    transition: all linear .5s;
+    cursor: pointer;
+}
+
+main .left{
+    width: 65%;
+    /*height: 800px;*/
+    /*outline: 1px solid red;*/
+    float: left;
+}
+main .left  h1{
+    border-left: 4px solid #ef4238;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    padding-left:10px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 0 ;
+}
+main .left  h1 span{
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+}
+main .left  h1 span a{
+     color: #37a;
+}
+main .left  h1 span a:hover{
+    color: #FF0036
+}
+main .left .it_life .it_article{
+    position: relative;
+}
+main .left .it_life .it_article pre{
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    top: 62px;
+    left: -10px;
+    color: white;
+    background-color: #db4659;
+    text-align: center;
+}
+main .left .it_life .it_article pre span{
+    position: absolute;
+    top: 24px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    z-index: 33;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #df0d3a;
+    border-bottom: 7px solid transparent;
+}
+main .left .it_life .it_article:nth-of-type(2) pre:nth-of-type(1){
+    background-color: #3472ef;
+}
+/*
+main .left .it_life .it_article:nth-of-type(2) pre:nth-of-type(2){
+    background-color: #3472ef;
+}
+*/
+main .left .it_life .it_article:nth-of-type(2) pre span{
+    border-right: 10px solid #3472ef;
+}
+main .left .it_life .it_article .img_wrap{
+    float: left;
+    height: 140px;
+    width: 30%;
+
+    /*outline: 1px solid red;*/
+}
+main .left .it_life .it_article .img_wrap img{
+    height: 100%;
+    width: 100%;
+    border: 4px solid white;
+    outline: 1px solid #eee;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+main .left .it_life .it_article article{
+    width: 65%;
+    float: left;
+    height: 140px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+main .left .it_life .it_article article h4{
+    color: #3d3d3d;
+    text-align: left;
+    font-weight: bold;
+}
+main .left .it_life .it_article article>span{
+    display: inline-block;
+    width:70px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    margin-right: 15px;
+    background-color: #fd8a61;
+    cursor: pointer;
+}
+main .left .it_life .it_article article>span a{
+    color: white;
+}
+/*
+main .left .it_life .it_article article>span:hover{
+    background-color: white;
+   
+}
+*/
+main .left .it_life .it_article article>span:hover a{
+     color:#072; 
+}
+main .left .it_life .it_article>p{
+    height: 26px;
+    background-color: #F4F4F4;
+    clear: both;
+    line-height: 26px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #999;
+    margin: 32px 0;
+}
+main .left .it_life .it_article>p img{
+    vertical-align: middle;
+}
+main .left .it_life .it_article>p small{
+    margin: 0 30px;
+}
+main .left .it_life .it_article>p span:first-of-type{
+    display: inline-block;
+    margin-right:30px;
+}
+main .left .it_life .it_article article p{
+    text-indent: 28px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #756F71;
+    width: 80%;
+}
+main .goodbook{
+    height: 320px;
+}
+main .goodbook  .book_div{
+    width: 136px;
+    margin-right: 26px;
+    position: relative;
+    float: left;
+    /*outline: 1px solid red;*/
+}
+
+main .goodbook  .book_div article{
+    padding: 10px;
+    position: absolute;
+    width:200px ;
+    height: 198px;
+    border-radius: 10px;
+    top: 0;
+    left: 147px;
+    background-color: #F9F9F7;
+    z-index: 5;
+    border: 1px solid #acacac;
+   display: none;
+}
+main .goodbook  .book_div article img{
+    position: absolute;
+    top: 90px;
+    left: -8px;
+    width: 10px;
+}
+main .goodbook  .book_div article h5{
+    color: #666666;
+    font-size: 14px;
+    /*font-weight: 400;*/
+}
+main .goodbook  .book_div article p:first-of-type{
+    margin: 6px 0;
+    width: 100%;
+    color: #666;
+    font-size: 13px;
+}
+main .goodbook  .book_div article p:last-of-type{
+    text-align: left;
+    width: 100%;
+    height: 72%;
+    font-size: 12px;
+    color: #666;
+}
+main .goodbook  .book_div p:first-of-type a img{
+    height: 180px;
+    cursor: pointer;
+}
+main .book_judge{
+    height: 84px;
+    outline: 1px solid #efefef;
+    padding: 20px;
+}
+main .book_judge article{
+    float: left;
+    width: 78%;
+    color: #666666;
+    font-size: 14px;
+}
+main .book_judge article h5 a{
+    color: #37a;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+main .book_judge article h5 a:hover{
+    color: #ff0000;
+}
+main .book_judge article small{
+    color: #999999;
+}
+main .book_judge article p{
+    margin-top: 6px;
+}
+main .book_judge .left_img{
+    float: right;
+    width: 20%;
+}
+main .book_judge .left_img img{
+    height: 90%;
+    float: right;
+    margin-right: 40px;
+}
+main .goodimg{
+    overflow: hidden;
+}
+main .goodimg >h1{
+    margin-bottom: 0;
+}
+main .goodimg .shoot_left{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+main .goodimg .shoot_left p{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
+    color: #999999;
+}
+main .goodimg .shoot_left img{
+    width: 418px;
+    margin: 10px;
+    margin-left: 4px;
+    border: 7px solid #fff;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #aaa;
+}
+main .goodimg .shoot_left img:hover{
+    box-shadow: 0 5px 20px #999;
+}
+main .goodimg .shoot_right{
+    width: 170px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+main .goodimg .shoot_right div{
+    width: 160px;
+    border: 8px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main .goodimg .shoot_right div:first-of-type{
+    border: 8px solid #efefef;
+}
+main .goodimg .shoot_right div i{
+    position: absolute;
+    display: inline-block;
+    border-top: 14px solid #efefef;
+    border-right: 14px solid transparent;
+    border-left: 14px solid transparent;
+    transform: rotate(90deg);
+    left: -18px;
+    visibility: hidden;
+}
+main .goodimg .shoot_right div:first-of-type i{
+    visibility: visible;
+    top: 50px;
+}
+main .goodimg .shoot_right div:nth-of-type(2) i{
+    top: 160px;
+}
+main .goodimg .shoot_right div:nth-of-type(3) i{
+    top: 280px;
+}
+main .goodimg .shoot_right div:nth-of-type(4) i{
+    top: 390px;
+}
+/*
+main .goodimg .shoot_right div:hover{
+    border: 10px solid #efefef;
+}
+*/
+main .goodimg .shoot_right img{
+   height: 95px;
+    width: 160px;
+}
+main #life_log>.it_article{
+    clear: both;
+}
+main #life_log>.it_article .img_wrap{
+    width: 150px;
+}
+main #life_log>.it_article .img_wrap img{
+    width: 100%;
+    height:auto;
+    border: none;
+}
+main .left #life_log>.it_article article{
+    border: 1px solid #efefef;
+    padding: 10px 20px;
+    position: relative;
+    background-color: #F9F9F7;
+    margin-left: 11px;
+    width: 66%;
+
+}
+main .left #life_log>.it_article article h4{
+    font-size: 12px;
+    font-weight: normal;
+    color: #acacac;
+}
+main .left #life_log>.it_article article h4 time{
+    margin-right: 140px;
+    margin-left: 30px;
+}
+main .left #life_log>.it_article article p{
+    margin-top: 4px;
+}
+main .left #life_log>.it_article article p:first-of-type{
+    color:#666 ;
+}
+main .left #life_log>.it_article article i{
+    position: absolute;
+    display: inline-block;
+    z-index: 10;
+    left: -12px;
+    top: 60px;
+
+}
+main .left #life_log>.it_article:first-of-type article{
+   height: 92px;
+}
+main .left #life_log>.it_article:nth-of-type(2) article{
+    height: 80px;
+}
+main .left #life_log>.it_article pre{
+    width: 26px;
+    top: 40px;
+}
+main .goodbook  .book_div p:last-of-type{
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    height: 20px;
+}
+main .goodbook  .book_div>a{
+    display: block;
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    color: #3377aa;
+}
+
+main .right{
+    width: 32%;
+    height: 800px;
+    /*outline: 1px solid red;*/
+    float: right;
+}
+main .right .time_div{
+    padding: 10px 0;
+    height: 140px;
+    width: 100%;
+    outline: 1px solid #efefef;
+    margin: 20px 0;
+}
+main .right .time_div canvas{
+    float: left;
+    margin-left: 10px;
+}
+main .right .time_div .time_left{
+    float: left;
+}
+main .right .time_div .time_left p{
+    color: #666;
+    margin-left: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    padding-left: 8px;
+}
+main .right .time_div .time_left p:first-of-type{
+    font-size: 40px;
+    padding-left: 0;
+}
+main .right .time_div .time_left p:first-of-type span{
+    font-size: 25px;
+}
+main .right .time_div .time_left p:nth-of-type(2){
+    font-size: 20px;
+}
+main .right .time_div .time_left p:nth-of-type(3){
+    font-size: 14px;
+    font-weight: normal;
+
+}
+main .right h4{
+    font-size: 16px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 10px;
+    color: #666;
+    text-align: left;
+    font-weight: 500;
+    margin: 21px 20px;
+    margin-right: 0;
+}
+main .right h4 a{
+    float: right;
+    color: #37a;
+}
+main .right h4 a:hover{
+    color: #FF0036;
+}
+main .right ul{
+    margin: 20px;
+    overflow: hidden;
+}
+main .right ul li{
+    cursor: pointer;
+}
+main .right ul:first-of-type li{
+    float: none;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+main .right ul:first-of-type li a{
+    color: #666;
+}
+
+main .right ul:first-of-type li a:hover{
+    background-color: #F9F9F7;
+    color: #ff0000;
+}
+main .right ul:first-of-type li:nth-of-type(1) a{
+    color:#ff0000 ;
+}
+main .right ul:first-of-type li i{
+   display: inline-block;
+    margin-right: 10px;
+    color: #666;
+    font-size: 16px;
+}
+main .right ul:first-of-type li:nth-of-type(1) i,.right ul:first-of-type li:nth-of-type(2) i,.right ul:first-of-type li:nth-of-type(3) i{
+    color: #ffb400;
+}
+main .right ul:first-of-type li span{
+    display: inline-block;
+    height: 100%;
+    width:86%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+main .right ul:nth-of-type(2) li{
+    position: relative;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 8px 4px;
+}
+main .right ul:nth-of-type(2) li a{
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(255,255,255,.3);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: #666;
+    border-radius: 6px;
+    transition: all linear 1s;
+}
+main .right ul:nth-of-type(2) li:hover a{
+    transform: rotate(360deg);
+    color: #ff0000;
+}
+
+main .right ul:nth-of-type(2) li:first-of-type{
+    background-color:#666 ;
+}
+main .right ul:nth-of-type(2) li:nth-of-type(2){
+    background-color: #0cc;
+}
+main .right ul:nth-of-type(2) li:nth-of-type(3){
+    background-color: #c96;
+}
+main .right ul:nth-of-type(2) li:nth-of-type(4){
+    background-color: #63a8e8;
+}
+main .right ul:nth-of-type(2) li:nth-of-type(5){
+    background-color: #a98659;
+}
+main .right ul:nth-of-type(2) li:nth-of-type(6){
+    background-color: #ff9900;;
+}
+main .right .everyday_sentence{
+    position: relative;
+}
+main .right .everyday_sentence img{
+    width: 100%;
+    opacity: .8;
+}
+main .right .everyday_sentence p{
+    position: absolute;
+    margin:50px 20px 40px 60px;
+    top: 30px;
+    color: olivedrab;
+}
+#title_span{
+    display: inline-block;
+    font-size: 15px;
+    color: #fd8a61;
+    vertical-align: middle;
+}
+#border{
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    vertical-align: middle;
+    border-right: 4px solid #fd8a61;
+}
+#sentence_author{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    width: 120px;
+    text-align: right;
+}
+main .right .erweima img{
+    margin-left: 30px;
+    width: 70%;
+    border: 1px solid #efefef;
+}
+main .right .erweima p{
+    margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+main .right .erweima p span{
+    color: #65B020;
+    font-size: 15px;
+    font-weight: 600;
+}
+main .right .comment{
+    margin-left:20px;
+}
+main .right .comment .comment_div{
+    border-bottom: 1px solid #efefef;
+    height: 60px;
+    margin-bottom: 10px;
+}
+main .right .comment img{
+    width: 40px;
+    /*border-radius: 50%;*/
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+}
+main .right .comment .comment_left{
+    float: left;
+    height: 45px;
+    overflow: hidden;
+}
+main .right .comment .comment_left p:first-of-type{
+    color: #999;
+    margin: 0 20px;
+    font-size: 12px;
+    width: 200px;
+}
+main .right .comment .comment_left p:first-of-type span{
+    color: #FD8A61;
+}
+main .right .comment .comment_left p:nth-of-type(2){
+    margin: 10px 20px;
+    font-size: 14px;
+    width: 200px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
